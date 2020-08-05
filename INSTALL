@@ -1,7 +1,7 @@
 git clone https://github.com/gargle/financeTryOuts.git
 mkdir .envs
 cd .envs/
-virtualenv-3.8 .envs/myenv
+virtualenv-3.8 .envs/myenv --system-site-packages
 source .envs/myenv/bin/activate
 deactivate # to deactive the virtual environment)
 cat .gitignore

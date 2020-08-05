@@ -1,0 +1,1 @@
+numpy @ file:///pub/devel/python/python-numpy/python-numpy-1.19.0-1.x86_64/build/dist/numpy-1.19.0-cp38-cp38-cygwin_3_1_6_x86_64.whl
