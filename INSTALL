@@ -1,11 +1,16 @@
 git clone https://github.com/gargle/financeTryOuts.git
 mkdir .envs
 cd .envs/
+
 virtualenv-3.8 .envs/myenv --system-site-packages
+python3.8 -m venv .envs/myenv 
+
 source .envs/myenv/bin/activate
 deactivate # to deactive the virtual environment)
+
 cat .gitignore
 .envs/
+
 pip freeze > requirements.txt
 cat Python_for_Finance.bibtex
 @book{yan2017python,
@@ -16,3 +21,4 @@ cat Python_for_Finance.bibtex
   year={2017},
   publisher={Packt Publishing}
 }
+
