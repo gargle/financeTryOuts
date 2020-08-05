@@ -1,1 +1,14 @@
-numpy @ file:///pub/devel/python/python-numpy/python-numpy-1.19.0-1.x86_64/build/dist/numpy-1.19.0-cp38-cp38-cygwin_3_1_6_x86_64.whl
+cycler==0.10.0
+kiwisolver==1.2.0
+matplotlib==3.3.0
+numpy==1.19.1
+pandas==1.1.0
+patsy==0.5.1
+Pillow==7.2.0
+pkg-resources==0.0.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+scipy==1.5.2
+six==1.15.0
+statsmodels==0.11.1
