@@ -1,0 +1,9 @@
+git clone https://github.com/gargle/financeTryOuts.git
+mkdir .envs
+cd .envs/
+virtualenv-3.8 .envs/myenv
+source .envs/myenv/bin/activate
+deactivate # to deactive the virtual environment)
+cat .gitignore
+.envs/
+pip freeze > requirements.txt
